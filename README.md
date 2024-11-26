@@ -1,56 +1,143 @@
-# React Chess Game
+# **Chess Application**
 
-Welcome to the React Chess Game repository! This chess game is a modern, responsive web application built using React and TypeScript. Aimed at providing a seamless chess-playing experience, it's perfect for both beginners and seasoned players who want to enjoy a game of chess on-the-go or from the comfort of their browser.
+![GitHub repo size](https://img.shields.io/github/repo-size/eckysaroyd/reactjs-game)
+![GitHub contributors](https://img.shields.io/github/contributors/eckysaroyd/reactjs-game)
+![GitHub stars](https://img.shields.io/github/stars/eckysaroyd/reactjs-game?style=social)
+![GitHub forks](https://img.shields.io/github/forks/eckysaroyd/reactjs-game?style=social)
 
-![React Chess Game Preview](https://i.imgur.com/9aAIZKX.png)
+## **Table of Contents**
 
-## Demo
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Experience the live demo: [Play Chess Now](https://chess-game-react.netlify.app/)
+---
 
-## Features
+## **About the Project**
 
-- **Play Chess**: Challenge yourself with a game of chess, optimized for all levels.
-- **Modern UI**: A clean and intuitive interface ensuring a delightful experience.
-- **Responsive Design**: Enjoy the game on any device, desktop, tablet, or mobile.
-- **TypeScript**: Strongly typed to enhance code quality and understandability.
+This Chess Application is a web-based chess game developed using **ReactJS**. It allows users to play chess in a user-friendly environment with smooth gameplay and an intuitive interface. The game is powered by modern JavaScript and React, ensuring performance and responsiveness across devices.
 
-## Getting Started
+This project was created by **Shubhangi Vasant**.
 
-To get a local copy up and running follow these simple steps.
+---
 
-### Prerequisites
+## **Features**
 
-Before you begin, ensure you have the latest version of `npm` installed on your machine. To install `npm`, run this command:
+- Interactive chessboard with responsive design.
+- Move validation and enforcement of chess rules.
+- Sound effects using the **Howler.js** library.
+- Optimized performance with React and TypeScript.
 
-npm install npm@latest -g
+---
 
-### Installation
+## **Technologies Used**
 
-1. Clone the repository:
-git clone https://github.com/szabolcsthedeveloper/React-Chess
+- **Frontend**: ReactJS, TypeScript
+- **Sound Effects**: Howler.js
+- **Build Tool**: React Scripts
+- **Testing**: React Testing Library, Jest
 
-2. Navigate to the project directory:
-cd react-chess-game
+---
 
-3. Install the project dependencies:
-npm install
+## **Getting Started**
 
-4. Start the development server:
+### **Prerequisites**
+
+Ensure the following are installed on your system:
+
+- [Node.js](https://nodejs.org/) (Version 14 or higher recommended)
+- [npm](https://www.npmjs.com/) (Comes with Node.js)
+
+### **Installation**
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/eckysaroyd/reactjs-game.git
+   cd reactjs-game
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+### **Running the Project**
+
+#### **Development Mode**
+Start the development server:
+```bash
 npm start
+```
+- The application will open in your default browser at `http://localhost:3000`.
 
-This will run the app in the development mode. Open http://localhost:3000 to view it in your browser.
+#### **Production Build**
+Create a production-ready build:
+```bash
+npm run build
+```
+- The build will be available in the `build` directory.
 
-## Usage
+---
 
-To play the game, simply start a new game and move the pieces by clicking on them and then clicking on the target square. The game will enforce legal moves and provide a visual indicator of possible moves.
+## **Project Structure**
 
-## Contributing
+```
+reactjs-game/
+│
+├── public/         # Static public assets
+├── src/            # Source code
+│   ├── components/ # Reusable React components
+│   ├── assets/     # Images, sounds, etc.
+│   ├── App.tsx     # Main app component
+│   └── index.tsx   # App entry point
+├── package.json    # Node.js project configuration
+├── tsconfig.json   # TypeScript compiler options
+├── README.md       # Project documentation
+└── ...
+```
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+---
 
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
+## **Contributing**
+
+Contributions are welcome! To contribute:
+
+1. **Fork the repository.**
+2. **Create a feature branch:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Commit your changes:**
+   ```bash
+   git commit -m "Add your feature description"
+   ```
+4. **Push to your branch:**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Create a Pull Request.**
+
+---
+
+## **License**
+
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+## **Contact**
+
+For any questions or feedback, feel free to reach out:
+
+- **Name**: Shubhangi Vasant
+- **GitHub**: [https://github.com/eckysaroyd](https://github.com/eckysaroyd)
+
+---
